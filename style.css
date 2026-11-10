@@ -1,0 +1,9 @@
+:root{--bg:#f4efe4;--ink:#2b2622;--accent:#d8452b;--sub:#7a6f64}
+@media (prefers-color-scheme:dark){:root{--bg:#1e1b18;--ink:#eee8dc;--sub:#a99e92}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 -apple-system,"Hiragino Sans",sans-serif}
+main{max-width:640px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:26px;letter-spacing:.02em}
+h2{font-size:18px;margin-top:2em;border-left:4px solid var(--accent);padding-left:10px}
+a{color:var(--accent)}
+.sub{color:var(--sub);font-size:14px}
+nav{margin-top:2em;font-size:14px}
